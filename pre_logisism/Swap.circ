@@ -91,35 +91,35 @@
     <wire from="(310,30)" to="(320,30)"/>
     <wire from="(250,20)" to="(260,20)"/>
     <wire from="(360,210)" to="(360,260)"/>
-    <comp lib="1" loc="(310,160)" name="AND Gate"/>
     <comp lib="0" loc="(450,80)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="O1"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(120,40)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="l1"/>
-    </comp>
+    <comp lib="1" loc="(310,30)" name="AND Gate"/>
+    <comp lib="1" loc="(310,100)" name="AND Gate"/>
+    <comp lib="1" loc="(430,200)" name="OR Gate"/>
     <comp lib="0" loc="(450,200)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="O2"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(120,200)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="S"/>
-    </comp>
     <comp lib="0" loc="(120,90)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="l2"/>
     </comp>
-    <comp lib="1" loc="(310,100)" name="AND Gate"/>
-    <comp lib="1" loc="(430,200)" name="OR Gate"/>
-    <comp lib="1" loc="(310,30)" name="AND Gate"/>
     <comp lib="1" loc="(200,200)" name="NOT Gate"/>
+    <comp lib="1" loc="(310,160)" name="AND Gate"/>
+    <comp lib="0" loc="(120,40)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="l1"/>
+    </comp>
+    <comp lib="0" loc="(120,200)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="S"/>
+    </comp>
     <comp lib="1" loc="(430,80)" name="OR Gate"/>
     <comp lib="1" loc="(310,260)" name="AND Gate"/>
   </circuit>

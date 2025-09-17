@@ -6,7 +6,7 @@
 
    <img src="C:\Users\27628\AppData\Roaming\Typora\typora-user-images\image-20250916184955940.png" alt="image-20250916184955940" style="zoom:50%;" />
 
-2. 
+2. ![img](https://cscore-buaa-edu-cn.vpn.buaa.edu.cn:8118/tutorial/logisim/logisim-3/assets/logisim_3_2.png)
 
 ## 陌生元器件
 
