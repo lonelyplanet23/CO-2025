@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/27628/Documents/A - programming/CO-2025/test_learning/counter_tb_isim_beh.exe" -prj "C:/Users/27628/Documents/A - programming/CO-2025/test_learning/counter_tb_beh.prj" "work.counter_tb" "work.glbl" 
