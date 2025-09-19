@@ -4,7 +4,7 @@
 
 1. 注意位数调整，输入位数最多是几位，就调整为几位，Alt + 1~9 快捷调整数据位宽
 
-   <img src="C:\Users\27628\AppData\Roaming\Typora\typora-user-images\image-20250916184955940.png" alt="image-20250916184955940" style="zoom:50%;" />
+   <img src="./assets/image-20250916184955940.png" alt="image-20250916184955940" style="zoom:50%;" />
 
 2. ![img](https://cscore-buaa-edu-cn.vpn.buaa.edu.cn:8118/tutorial/logisim/logisim-3/assets/logisim_3_2.png)
 
@@ -44,7 +44,7 @@
 
 
 
-<img src="C:\Users\27628\AppData\Roaming\Typora\typora-user-images\image-20250916193602510.png" alt="image-20250916193602510" style="zoom:33%;" />
+<img src="./assets/image-20250916193602510.png" alt="image-20250916193602510" style="zoom:33%;" />
 
 ### **输出输入的数中有多少个1**
 
@@ -83,7 +83,7 @@ Bit Finder 有两个输出，分别承担 “结果值” 和 “结果有效性
 
 - 输出前导0个数的电路：
 
-![image-20250916192532737](C:\Users\27628\AppData\Roaming\Typora\typora-user-images\image-20250916192532737.png)
+![image-20250916192532737](./assets/image-20250916192532737.png)
 
 
 
@@ -91,7 +91,7 @@ Bit Finder 有两个输出，分别承担 “结果值” 和 “结果有效性
 
 ###  三输出逻辑：>、=、< 分别反馈
 
-![img](https://www.cburch.com/logisim/docs/2.7/en/img-libs/comparator.png)
+![img](./assets/comparator.png)
 
 Comparator 有三个独立的输出引脚，分别对应 “大于、等于、小于” 三种结果，**同一时刻仅一个输出为 1，其余为 0**（正常场景下）：
 
@@ -105,7 +105,7 @@ Comparator 有三个独立的输出引脚，分别对应 “大于、等于、�
 
 ## Bit Selector 位拆分器(需复习)
 
-<img src="C:\Users\27628\AppData\Roaming\Typora\typora-user-images\image-20250916193637778.png" alt="image-20250916193637778" style="zoom: 50%;" />
+<img src="./assets/image-20250916193637778.png" alt="image-20250916193637778" style="zoom:50%;" />
 
 ### 划分位组，指定输出
 
@@ -123,3 +123,13 @@ Comparator 有三个独立的输出引脚，分别对应 “大于、等于、�
 + 第 1 组是接下来的 3 位 `010`
 + 第 2 组是再接下来的 3 位 `001`。（顶部之外的任何位都用 0 填充。）
 + 选择输入将是一个两位的数，用于选择要输出这三个组中的哪一个：如果选择输入是 3，那么输出将是 `000`。
+
+
+
+# RAM、ROM 存储器 
+
++ RAM 可读可写，**选择 “Separate load and store ports”，32位**
++  ROM 只可读
++ 数据导入
+  + 手动导入：可手动在数据区域选择内存直接进行更改
+  + 文件导入：可编写相应的数据文件，进行一次性导入，文件头需要增加一行 `v2.0 raw` 字样才可以正确导入。
